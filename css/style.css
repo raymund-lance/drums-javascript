@@ -19,8 +19,15 @@ body {
     border-radius: 3px;
     margin: 5px;
     padding: 10px;
+    transition: all .07s ease;
 }
 
 .key kbd{
     color: white;
+}
+
+.playing {
+    transform: scale(2.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 2rem #f0c001;
 }
